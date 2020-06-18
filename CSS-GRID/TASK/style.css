@@ -21,6 +21,11 @@ i {
     padding: .5rem;
 }
 
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
 /* main nav */
 
