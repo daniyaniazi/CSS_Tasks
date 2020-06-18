@@ -1,0 +1,49 @@
+/* TO CHANGE DYNAMICALLY HEIGHT AND WIDTH */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #eee;
+    width: 80%;
+    margin: 70px 0 0 50px;
+    display: grid;
+    /* grid-template-columns: max-content 1fr 1fr min-content; */
+    /* grid-template-rows: min-content 150px; */
+    grid-template-columns: minmax(150px, 300px) 1fr 1fr min-content;
+    grid-template-rows: minmax(100px, max-content) minmax(100px, max-content);
+    grid-gap: 5px;
+}
+
+.one {
+    background-color: aquamarine;
+}
+
+.two {
+    background-color: rgb(75, 182, 224);
+}
+
+.three {
+    background-color: rgb(65, 160, 250);
+}
+
+.four {
+    background-color: rgb(53, 93, 224);
+}
+
+.five {
+    background-color: rgb(18, 85, 187);
+}
+
+.six {
+    background-color: rgb(7, 23, 110);
+}
+
+.seven {
+    background-color: rgb(80, 103, 233);
+}
+
+.eight {
+    background-color: rgb(62, 75, 150);
+}
